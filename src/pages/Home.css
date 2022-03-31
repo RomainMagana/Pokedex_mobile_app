@@ -1,0 +1,79 @@
+
+ion-card {
+    margin: 0;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.title__pokedex {
+    margin-top: 70px!important;
+    margin-left: 30px!important;
+    font-size: 1.5rem!important;
+    color: #000000;
+    font-weight: 700;
+}
+
+ion-card-header {
+    width: 45%;
+    max-width: 170px;
+    margin: 10px auto!important;
+    background-color: #a1a1a1;
+    padding-right: 0!important;
+    padding-bottom: 0!important;
+    color: #ffff;
+    font-size: 2rem!important;
+    border-radius: 10px;
+    box-shadow: inset 1.53333px -1.53333px 1.53333px rgba(214, 181, 93, 0.416), inset -1.53333px 1.53333px 1.53333px rgba(255, 255, 255, 0.416);
+    box-shadow: 3px 4px 8px 0px #0000001A;
+
+}
+
+ion-card-header ion-card-title {
+    font-size: 1.1rem!important;
+    font-weight: 600!important;
+}
+
+ion-card-content {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+ion-card-content ion-label {
+    padding: 3px 15px 3px 15px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.47);
+    margin-bottom: 0!important;
+    font-size: 0.6rem!important;
+    font-weight: 600!important;
+}
+
+ion-avatar {
+    height: 70px!important;
+    width: 70px!important;
+}
+
+.pokemon {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1!important;
+    margin-left: -10px;
+}
+
+.pokeball {
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+    z-index: 0!important;
+    width: 80px!important;
+    height: 80px !important;
+}
+
+.pokeball__fond {
+    position: absolute;
+    top: -50px;
+    right: -60px;
+    width: 200px!important;
+    height:200px !important;
+}

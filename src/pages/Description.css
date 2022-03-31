@@ -1,0 +1,42 @@
+.name__pokemon {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-left: 20px!important;
+    margin-top: 20px!important;
+}
+
+.name__pokemon p {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    border-radius: 30px;
+    color: #ffffff!important;
+    font-weight: 600;
+    font-size: 0.8rem;
+    box-shadow: 0px 4px 8px 0px #0000000D;
+}
+
+.pokeball__fond__description {
+    position: absolute;
+    bottom: -40px;
+    right: -100px;
+    width: 250px!important;
+    height: 250px!important;
+    z-index: 0;
+}
+
+.stats {
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+.stats ion-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
